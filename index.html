@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title></title>
-   </head>
-   <body>
-      <div id="content"></div>
-      <script src="https://raw.githubusercontent.com/justinoboyle/include.js/master/include.js"></script>
-   </body>
-</html>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+@import '/font/stylesheet.css';
+    * {
+        font-family: 'Roboto Mono', monospace;
+    }
+    body {
+        background-color: #01000f;
+    }
+    h1 {
+        color: #1e88e5;
+        font-size: 5vw;
+    }
+    h1 > endword:before {
+        content: "·";
+        color: #444444;
+    }
+    h1 > endword:after {
+        content: "⏎";
+        margin-left: 1vw;
+        color: #444444;
+        font-family: "carriagereturn";
+    }
+</style>
+<h1>coming<endword>soon.</endword></h1>

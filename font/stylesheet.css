@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'carriagereturn';
+	src: url('subset-carriagereturn.eot');
+	src: url('subset-carriagereturn.eot?#iefix') format('embedded-opentype'),
+		url('subset-carriagereturn.woff') format('woff'),
+		url('subset-carriagereturn.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
