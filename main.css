@@ -1,0 +1,6 @@
+/*
+    Copyright Justin O'Boyle, 2016.
+    Roboto Mono is rightful property of Google Inc.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);@import url(/font/carriagereturn/stylesheet.css);@import url(/font/dotspace/stylesheet.css);*{font-family:'Roboto Mono',monospace}body{background-color:#01000f}h1>endword:before{content:"·";color:#444}h1>endword:after{content:"⏎";margin-left:1vw;color:#444;font-family:carriagereturn}@media (max-width:600px){h1{color:#1e88e5;font-size:40px}main>links{font-size:24px;color:#444;list-style:none}main{position:fixed;top:-3%;left:2%}}@media (min-width:601px){h1{color:#1e88e5;font-size:60px}main>links{font-size:40px;color:#444;list-style:none}main{position:fixed;top:25%;left:2%}}a:link,a:visited{color:#444;text-decoration:none!important}a{color:#444;transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-webkit-transition:all .25s ease-in-out}a:hover{color:#fff}::selection{background:rgba(255,255,255,.1)}::-moz-selection{background:rgba(255,255,255,.1)}.description:{top:-100px}
